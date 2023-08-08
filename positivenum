@@ -1,0 +1,6 @@
+list1=[12, -7, 5, 64, -14]
+list2=[12, 14, -95, 3]
+s1 = [ele for ele in list1 if ele > 0]
+s2 = [ele for ele in list2 if ele > 0]   
+print("input1:list1=[12, -7, 5, 64, -14]" "\n  output1:", s1)
+print("input2:list2=[12, 14, -95, 3]" "\n  output2:", s2)
